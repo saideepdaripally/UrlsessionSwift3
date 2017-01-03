@@ -12,6 +12,9 @@
 		D1414E1D1E161B3C00C2684D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1414E1B1E161B3C00C2684D /* Main.storyboard */; };
 		D1414E1F1E161B3C00C2684D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1414E1E1E161B3C00C2684D /* Assets.xcassets */; };
 		D1414E221E161B3C00C2684D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1414E201E161B3C00C2684D /* LaunchScreen.storyboard */; };
+		D1414E2C1E16254700C2684D /* Evnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1414E2B1E16254700C2684D /* Evnet.swift */; };
+		D1414E2E1E1649D500C2684D /* EvnetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1414E2D1E1649D500C2684D /* EvnetTableViewCell.swift */; };
+		D190AFF71E166B55006B766F /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190AFF61E166B55006B766F /* EventDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D1414E1E1E161B3C00C2684D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1414E211E161B3C00C2684D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1414E231E161B3C00C2684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1414E2B1E16254700C2684D /* Evnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Evnet.swift; path = ../Evnet.swift; sourceTree = "<group>"; };
+		D1414E2D1E1649D500C2684D /* EvnetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvnetTableViewCell.swift; sourceTree = "<group>"; };
+		D190AFF61E166B55006B766F /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		D1414E161E161B3B00C2684D /* MeetUpDEmo */ = {
 			isa = PBXGroup;
 			children = (
+				D1414E2B1E16254700C2684D /* Evnet.swift */,
 				D1414E171E161B3B00C2684D /* AppDelegate.swift */,
 				D1414E191E161B3B00C2684D /* ViewController.swift */,
+				D1414E2D1E1649D500C2684D /* EvnetTableViewCell.swift */,
+				D190AFF61E166B55006B766F /* EventDetailViewController.swift */,
 				D1414E1B1E161B3C00C2684D /* Main.storyboard */,
 				D1414E1E1E161B3C00C2684D /* Assets.xcassets */,
 				D1414E201E161B3C00C2684D /* LaunchScreen.storyboard */,
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					D1414E131E161B3B00C2684D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AX766J88NA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1414E2E1E1649D500C2684D /* EvnetTableViewCell.swift in Sources */,
+				D190AFF71E166B55006B766F /* EventDetailViewController.swift in Sources */,
 				D1414E1A1E161B3B00C2684D /* ViewController.swift in Sources */,
 				D1414E181E161B3B00C2684D /* AppDelegate.swift in Sources */,
+				D1414E2C1E16254700C2684D /* Evnet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AX766J88NA;
 				INFOPLIST_FILE = MeetUpDEmo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MeetUpDEmo;
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AX766J88NA;
 				INFOPLIST_FILE = MeetUpDEmo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MeetUpDEmo;
@@ -299,6 +314,7 @@
 				D1414E281E161B3C00C2684D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
